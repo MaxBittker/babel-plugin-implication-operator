@@ -5,6 +5,8 @@ A babel plugin that enables a short circuiting inline boolean implication operat
 Kinda silly, but it compiles `1 >> 2` to `!1 || 2`.
 Had to override the `>>` operator because bablyon doesn't really have a pluggable way to add tokens as far as I could tell.
 
+Inspired by [this blog post](http://uniphil.github.io/implication/) about the implication operator being missing from most languages.
+
 # Installation
 
 ```javascript
